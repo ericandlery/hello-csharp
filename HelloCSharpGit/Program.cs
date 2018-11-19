@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace HelloApp
 {
@@ -18,6 +19,10 @@ namespace HelloApp
 
             Code3 h4 = new Code3();
             Console.WriteLine(h4.test());
+
+            Debug.WriteLine("Test Debug Function");
+
+            Console.WriteLine("Debug Completed");
         }
     }
 
