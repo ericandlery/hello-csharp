@@ -5,25 +5,25 @@ namespace HelloApp
 {
     class HelloWorld
     {
-        static void Main(String[] args)
-        {
-            Console.WriteLine("Hi, this is my first C Sharp code.");
-            HelloApp.Hello2 hi = new HelloApp.Hello2();
-            hi.test();
+        //static void Main(String[] args)
+        //{
+        //    Console.WriteLine("Hi, this is my first C Sharp code.");
+        //    HelloApp.Hello2 hi = new HelloApp.Hello2();
+        //    hi.test();
 
-            HelloApp2.Code2 hi2 = new HelloApp2.Code2();
-            hi2.test();
+        //    HelloApp2.Code2 hi2 = new HelloApp2.Code2();
+        //    hi2.test();
 
-            Hello2 h3 = new Hello2();
-            Console.WriteLine(h3.test2());
+        //    Hello2 h3 = new Hello2();
+        //    Console.WriteLine(h3.test2());
 
-            Code3 h4 = new Code3();
-            Console.WriteLine(h4.test());
+        //    Code3 h4 = new Code3();
+        //    Console.WriteLine(h4.test());
 
-            Debug.WriteLine("Test Debug Function");
+        //    Debug.WriteLine("Test Debug Function");
 
-            Console.WriteLine("Debug Completed");
-        }
+        //    Console.WriteLine("Debug Completed");
+        //}
     }
 
     class Hello2
