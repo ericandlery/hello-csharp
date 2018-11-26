@@ -33,6 +33,7 @@ namespace TestName
     {
         private String name;
         private double fuel;
+        sbyte b;
 
         public void SetParams(String name,double fuel)
         {
@@ -44,6 +45,30 @@ namespace TestName
         {
             Console.WriteLine("Name="+name);
             Console.WriteLine("Fuel="+fuel);
+            Console.WriteLine(GetString());
+            ShowByteSize();
+        }
+
+        String GetString()
+        {
+            return "F1 2002";
+        }
+
+        public void SetByte(sbyte b)
+        {
+            this.b = b;
+        }
+        
+        public sbyte GetByte()
+        {
+            return b;
+        }
+
+        private void ShowByteSize()
+        {
+            Console.WriteLine("Max Size="+byte.MaxValue+", min size={0}",byte.MinValue);
+            Console.WriteLine("Max Size="+sbyte.MaxValue+", min size={0}", sbyte.MinValue);
+            return;
         }
 
     }

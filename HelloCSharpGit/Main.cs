@@ -11,32 +11,51 @@ namespace HelloCSharpGit
     {
         static void Main(String[] args)
         {
-            //Debug.WriteLine("kimi");
-            //Console.WriteLine("ralf");
+            int x=50;
+            int y;
+            MethodTest mt = new MethodTest();
+            mt.GetOutput(x,out y);
+            Console.WriteLine(y);
 
-            EncapsulationTest et = new EncapsulationTest();
-            et.DisplayParams();
+            mt.SwapInt(50,77);
 
-            Console.WriteLine();
+            x = 31;
+            y = 98;
+            mt.SwapInt(x,y);
+            Console.WriteLine("x="+x+",y={0}",y);
+            mt.SwapIntRef(ref x,ref y);
+            Console.WriteLine("x=" + x + ",y={0}", y);
 
-            et.team = "McLaren";
-            et.rpm = 18200;
+            ////Debug.WriteLine("kimi");
+            ////Console.WriteLine("ralf");
 
-            et.DisplayParams();
-            Console.WriteLine();
+            //EncapsulationTest et = new EncapsulationTest();
+            //et.DisplayParams();
 
-            et.SetParams("Williams",19000);
-            et.DisplayParams();
+            //Console.WriteLine();
 
-            EncapsulationTest et2 = new EncapsulationTest();
-            et2.DisplayParams();
+            //et.team = "McLaren";
+            //et.rpm = 18200;
 
-            Console.WriteLine();
+            //et.DisplayParams();
+            //Console.WriteLine();
 
-            TestName.EncapsulationTest et3 = new TestName.EncapsulationTest();
-            et3.Display();
-            et3.SetParams("Kimi",140);
-            et3.Display();
+            //et.SetParams("Williams",19000);
+            //et.DisplayParams();
+
+            //EncapsulationTest et2 = new EncapsulationTest();
+            //et2.DisplayParams();
+
+            //Console.WriteLine();
+
+            //TestName.EncapsulationTest et3 = new TestName.EncapsulationTest();
+            //et3.Display();
+            //et3.SetParams("Kimi",140);
+            //et3.Display();
+
+            //Console.WriteLine("BYTE="+et3.GetByte());
+            //et3.SetByte(127);
+            //Console.WriteLine("BYTE="+et3.GetByte());
 
         }
     }
