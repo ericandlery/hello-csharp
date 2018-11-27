@@ -22,33 +22,66 @@ namespace HelloCSharpGit
 
         static void Main(String[] args)
         {
-            int x=50;
-            int y;
-            MethodTest mt = new MethodTest();
-            mt.GetOutput(x,out y);
-            Console.WriteLine(y);
 
-            mt.SwapInt(50,77);
+            //Nullable nb = new Nullable();
+            //Console.WriteLine(nb.x);
+            //Console.WriteLine(nb.y);
+            //nb.x = null;
+            //nb.y = 22;
+            //Console.WriteLine(nb.x+" "+nb.y);
+            //nb.f1 = 55.44f;
+            //Console.WriteLine(nb.f1);
+            //nb.f1 = null;
+            //Console.WriteLine(nb.f1);
+            //nb.f2 = 77.88f;
+            //Console.WriteLine(nb.f2);
+            //nb.f2 = null;
+            //Console.WriteLine(nb.f2);
 
-            x = 31;
-            y = 98;
-            mt.SwapInt(x,y);
-            Console.WriteLine("x="+x+",y={0}",y);
-            mt.SwapIntRef(ref x,ref y);
-            Console.WriteLine("x=" + x + ",y={0}", y);
+            //int n4;
+            //n4 = nb.n1 ?? 555;
+            //Console.WriteLine("Coalescing="+n4);
+            //n4 = nb.n2 ?? 987;
+            //Console.WriteLine("Coalescing=" + n4);
+            //n4 = nb.n3 ?? 12345;
+            //Console.WriteLine("Coalescing=" + n4);
+            //nb = new Nullable();
+            //Console.WriteLine(nb.x+nb.z);
+            //nb.z = nb.x;
 
-            Test();
 
-            Console.WriteLine("Recursive Method="+mt.TestRecursive(3,15));
+            //nb.f3 = 1.34f;
+            //Console.WriteLine(nb.f3);
+            //nb.f3 = null;
+            //Console.WriteLine(nb.f3);
 
-            String s1 = "Milk";
-            String s2 = "Coffee";
-            string s3;
-            string s4;
-            s1 = "31";
-            s2 = "13";
-            Console.WriteLine("MultiOut="+mt.StringTogether(ref s1,ref s2,out s3,out s4));
-            Console.WriteLine(s3+" "+s4);
+            //int x=50;
+            //int y;
+            //MethodTest mt = new MethodTest();
+            //mt.GetOutput(x,out y);
+            //Console.WriteLine(y);
+
+            //mt.SwapInt(50,77);
+
+            //x = 31;
+            //y = 98;
+            //mt.SwapInt(x,y);
+            //Console.WriteLine("x="+x+",y={0}",y);
+            //mt.SwapIntRef(ref x,ref y);
+            //Console.WriteLine("x=" + x + ",y={0}", y);
+
+            //Test();
+
+            //Console.WriteLine("Recursive Method="+mt.TestRecursive(3,15));
+
+            //String s1 = "Milk";
+            //String s2 = "Coffee";
+            //string s3;
+            //string s4;
+            //s1 = "31";
+            //s2 = "13";
+            //Console.WriteLine("MultiOut="+mt.StringTogether(ref s1,ref s2,out s3,out s4));
+            //Console.WriteLine(s3+" "+s4);
 
             ////Debug.WriteLine("kimi");
             ////Console.WriteLine("ralf");
