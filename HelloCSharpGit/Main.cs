@@ -9,6 +9,17 @@ namespace HelloCSharpGit
 {
     class MainClass
     {
+
+        public void NonStaticTest()
+        {
+            Console.WriteLine("non-static method");
+        }
+
+        static public void Test()
+        {
+            Console.WriteLine("static method");
+        }
+
         static void Main(String[] args)
         {
             int x=50;
@@ -25,6 +36,19 @@ namespace HelloCSharpGit
             Console.WriteLine("x="+x+",y={0}",y);
             mt.SwapIntRef(ref x,ref y);
             Console.WriteLine("x=" + x + ",y={0}", y);
+
+            Test();
+
+            Console.WriteLine("Recursive Method="+mt.TestRecursive(3,15));
+
+            String s1 = "Milk";
+            String s2 = "Coffee";
+            string s3;
+            string s4;
+            s1 = "31";
+            s2 = "13";
+            Console.WriteLine("MultiOut="+mt.StringTogether(ref s1,ref s2,out s3,out s4));
+            Console.WriteLine(s3+" "+s4);
 
             ////Debug.WriteLine("kimi");
             ////Console.WriteLine("ralf");
