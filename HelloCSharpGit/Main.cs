@@ -22,7 +22,46 @@ namespace HelloCSharpGit
 
         static void Main(String[] args)
         {
+            //ArraysHello ah = new ArraysHello();
+            //Console.WriteLine(ah.k[0]);
+            //Console.WriteLine(ah.l[3]);
+            //Console.WriteLine(ah.m[2]);
+            //ah.l[3] = 123;
+            //Console.WriteLine(ah.l[3]);
+            //Console.WriteLine("LENGTH="+ah.l.Length);
+            //Console.WriteLine("LENGTH="+ ah.s.Length);
 
+            //for(int i = 0; i < ah.l.Length; i++)
+            //{
+            //    Console.Write(ah.l[i]);
+            //    Console.Write(" + ");
+            //}
+            //Console.WriteLine();
+            //foreach(int i in ah.l)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.WriteLine(ah.two);
+
+            //foreach(int i in ah.two)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.WriteLine("2d length="+ah.two.Length);
+            //Console.WriteLine("###");
+            //Console.WriteLine(ah.d2[0].Length);
+            //foreach(int[] i in ah.d2)
+            //{
+            //    Console.WriteLine(!i.IsFixedSize);
+            //    Console.WriteLine(i.LongLength);
+            //    Console.WriteLine(i.Rank);
+            //    foreach (int ii in i)
+            //    {
+            //        Console.WriteLine(ii);
+            //    }
+            //}
+            //Console.WriteLine(ah.d2.Rank);
+            //Console.WriteLine("RO="+ah.d2.IsReadOnly);
             //Nullable nb = new Nullable();
             //Console.WriteLine(nb.x);
             //Console.WriteLine(nb.y);
