@@ -23,9 +23,17 @@ namespace HelloCSharpGit
 
         private static void Main2(String[] args)
         {
-            EnumsApp ea = new EnumsApp();
-            Console.WriteLine((int)Days.sun);
-            
+            Console.WriteLine(HelloCSharpGit.Class.StringUtil.ToUpper("i'm lower case words, make me big!"));
+            Console.WriteLine();
+
+            //ConstructorHolla ch = new ConstructorHolla("Ralf","Williams",5);
+            //ch.GetValues();
+            //ch = new ConstructorHolla();
+            //ch.GetValues();
+
+            //EnumsApp ea = new EnumsApp();
+            //Console.WriteLine((int)Days.sun);
+
             //enum Days {sun,mon};
 
             //PublicStruct ps = new PublicStruct();
