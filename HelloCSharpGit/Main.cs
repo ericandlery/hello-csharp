@@ -9,6 +9,7 @@ namespace HelloCSharpGit
 {
     class MainClass
     {
+        enum Days {sun,mon};
 
         public void NonStaticTest()
         {
@@ -22,8 +23,13 @@ namespace HelloCSharpGit
 
         private static void Main2(String[] args)
         {
-            PublicStruct ps = new PublicStruct();
-            ps.Test();
+            EnumsApp ea = new EnumsApp();
+            Console.WriteLine((int)Days.sun);
+            
+            //enum Days {sun,mon};
+
+            //PublicStruct ps = new PublicStruct();
+            //ps.Test();
 
             //StructApp.StructClass ss = new StructApp.StructClass();
             //ss.StructTest();
