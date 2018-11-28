@@ -7,6 +7,17 @@ namespace StructApp
     {
         public string name;
         public string nickName;
+
+        public void SetNames(string name,string nickName)
+        {
+            this.name = name;
+            this.nickName = nickName;
+        }
+
+        public void Show()
+        {
+            Console.WriteLine("Name="+name+"\nNickName="+nickName);
+        }
     }
 
     struct Teams{

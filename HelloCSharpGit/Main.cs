@@ -22,15 +22,24 @@ namespace HelloCSharpGit
 
         private static void Main2(String[] args)
         {
+            PublicStruct ps = new PublicStruct();
+            ps.Test();
 
-            StructApp.StructClass ss = new StructApp.StructClass();
-            ss.StructTest();
-            Console.WriteLine(ss.mcLaren);
-            ss.mcLaren.name = "McLaren";
-            ss.mcLaren.num = 2;
-            ss.mcLaren.rpm = 18200;
-            ss.mcLaren.champion = false;
-            Console.WriteLine(ss.mcLaren);
+            //StructApp.StructClass ss = new StructApp.StructClass();
+            //ss.StructTest();
+            //Console.WriteLine(ss.mcLaren);
+            //ss.mcLaren.name = "McLaren";
+            //ss.mcLaren.num = 2;
+            //ss.mcLaren.rpm = 18200;
+            //ss.mcLaren.champion = false;
+            //Console.WriteLine(ss.mcLaren);
+
+            //StructApp.Names names = new StructApp.Names();
+            //StructApp.Teams teams = new StructApp.Teams();
+
+            //names.Show();
+            //names.SetNames("Kimi","Iceman");
+            //names.Show();
 
             //StringHey sh = new StringHey();
             //Console.WriteLine(sh.s3+" "+sh.s4);
