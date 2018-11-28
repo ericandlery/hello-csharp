@@ -20,8 +20,35 @@ namespace HelloCSharpGit
             Console.WriteLine("static method");
         }
 
+        private static void Main2(String[] args)
+        {
+
+            StringHey sh = new StringHey();
+            Console.WriteLine(sh.s3+" "+sh.s4);
+            Console.WriteLine(sh.c1);
+
+            string s1 = new string(sh.c1);
+            Console.WriteLine(s1);
+            Console.WriteLine(string.Join("##",sh.s5));
+            Console.WriteLine(String.Join("$",sh.s5));
+            sh.dt = new DateTime(2002,3,26);
+            Console.WriteLine(sh.dt.ToString());
+            Console.WriteLine(String.Format("今年是{0:d}",sh.dt));
+            Console.WriteLine((sh.dt.ToString()));
+            //Console.WriteLine("compare="+sh.s3.CompareTo(sh.s4));
+            Console.WriteLine("compare="+sh.s3==sh.s4);
+            Console.WriteLine("compare="+sh.s1.CompareTo(sh.ss1));
+            Console.WriteLine("compare="+sh.s1.CompareTo(sh.s2));
+            Console.WriteLine("compare="+sh.s1==sh.ss1);
+
+            //Console.WriteLine(args.Length);
+        }
+
         static void Main(String[] args)
         {
+
+            Main2(args);
+
             //ArraysHello ah = new ArraysHello();
             //Console.WriteLine(ah.k[0]);
             //Console.WriteLine(ah.l[3]);
