@@ -23,8 +23,42 @@ namespace HelloCSharpGit
 
         private static void Main2(String[] args)
         {
-            Console.WriteLine(HelloCSharpGit.Class.StringUtil.ToUpper("i'm lower case words, make me big!"));
-            Console.WriteLine();
+            //Junior j = new Junior();
+            //j.Warning();
+
+            //Senior s = new Senior();
+            //s.Warning();
+
+            //Senior s = new Senior();
+            //s.Show();
+            //Console.WriteLine(s.Multiply());
+            ////Console.WriteLine(s.Divide());
+            //s.X = 43;
+            //s.Y = 3;
+            //s.Show();
+            //Console.WriteLine(s.Multiply());
+            //Console.WriteLine(s.Divide());
+            //s.Y = 0;
+            //Console.WriteLine(s.Divide());
+            //Console.WriteLine(s.Add());
+
+            //Senior ss = new Senior(31,13);
+            //int x=ss.Add();
+            //Console.WriteLine(x);
+
+            //Junior j = new Junior();
+            //j.X = 5;
+            //Console.WriteLine(j.X);
+            //Console.WriteLine(j.Y);
+            //j.Y = 777;
+            //Console.WriteLine(j.Y);
+            //j.N = 555;
+            //Console.WriteLine(j.N);
+            //j.Show();
+            //Console.WriteLine(j.Add());
+
+            //Console.WriteLine(HelloCSharpGit.Class.StringUtil.ToUpper("i'm lower case words, make me big!"));
+            //Console.WriteLine();
 
             //ConstructorHolla ch = new ConstructorHolla("Ralf","Williams",5);
             //ch.GetValues();
