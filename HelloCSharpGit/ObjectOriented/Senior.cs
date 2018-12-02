@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Senior : Junior
+public class Senior : Junior,Legend
 {
     public Senior(int x,int y)
     {
@@ -27,5 +27,16 @@ public class Senior : Junior
     public double Divide()
     {
         return (double)X / (double)Y;
+    }
+
+    public new void Warning()
+    {
+        base.Warning();
+        Console.WriteLine("This is a subImplementation.");
+    }
+
+    public void getMsg(string msg)
+    {
+        Console.WriteLine(msg);
     }
 }

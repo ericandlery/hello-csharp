@@ -23,11 +23,13 @@ namespace HelloCSharpGit
 
         private static void Main2(String[] args)
         {
+
             //Junior j = new Junior();
             //j.Warning();
 
             //Senior s = new Senior();
             //s.Warning();
+            //s.getMsg("Pokemon Yellow");
 
             //Senior s = new Senior();
             //s.Show();
