@@ -23,6 +23,12 @@ namespace HelloCSharpGit
 
         private static void Main2(String[] args)
         {
+            TestConcrete tc = new TestConcrete();
+            //tc.TestNonAbstract();
+            //tc.TestAbstractMethod();
+            //tc.TestAbstractMethod(557);
+            tc.TestVirtual();
+            //TestAbstract ta = new TestAbstract();
 
             //Junior j = new Junior();
             //j.Warning();
