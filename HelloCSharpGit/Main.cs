@@ -23,15 +23,18 @@ namespace HelloCSharpGit
 
         private static void Main2(String[] args)
         {
-            McLaren.Test mt = new McLaren.Test();
-            Williams.Test wt = new Williams.Test();
-            BritishAmericanRacing.Test bt = new BritishAmericanRacing.Test();
-            BritishAmericanRacing.Jordan.Test jt = new BritishAmericanRacing.Jordan.Test();
+            PreProcessorsTest pp = new PreProcessorsTest();
+            pp.Test();
 
-            mt.RevUp();
-            wt.RevUp();
-            bt.RevUp();
-            jt.RevUp();
+            //McLaren.Test mt = new McLaren.Test();
+            //Williams.Test wt = new Williams.Test();
+            //BritishAmericanRacing.Test bt = new BritishAmericanRacing.Test();
+            //BritishAmericanRacing.Jordan.Test jt = new BritishAmericanRacing.Jordan.Test();
+
+            //mt.RevUp();
+            //wt.RevUp();
+            //bt.RevUp();
+            //jt.RevUp();
 
             //Box b1 = new Box();
             //b1.X = 5;
