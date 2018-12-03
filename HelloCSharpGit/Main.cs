@@ -21,10 +21,34 @@ namespace HelloCSharpGit
             Console.WriteLine("static method");
         }
 
+        private static void Main3(String[] args)
+        {
+            TestIO io = new TestIO();
+            io.Test();
+
+            //try
+            //{
+            //    throw new System.Exception();
+            //    Console.WriteLine("Exception Example");
+            //}
+            //catch (System.Exception e)
+            //{
+            //    Console.WriteLine(e.Message);
+            //    Console.WriteLine("Error Occured.");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Congratulations! You just finished basic C# Hello World!");
+            //}
+        }
+
         private static void Main2(String[] args)
         {
-            PreProcessorsTest pp = new PreProcessorsTest();
-            pp.Test();
+            //RegEx r = new RegEx();
+            //r.Test();
+
+            //PreProcessorsTest pp = new PreProcessorsTest();
+            //pp.Test();
 
             //McLaren.Test mt = new McLaren.Test();
             //Williams.Test wt = new Williams.Test();
@@ -157,7 +181,7 @@ namespace HelloCSharpGit
         static void Main(String[] args)
         {
 
-            Main2(args);
+            Main3(args);
 
             //ArraysHello ah = new ArraysHello();
             //Console.WriteLine(ah.k[0]);
