@@ -23,21 +23,31 @@ namespace HelloCSharpGit
 
         private static void Main2(String[] args)
         {
-            Box b1 = new Box();
-            b1.X = 5;
-            b1.Y = 4;
-            Box b2 = new Box();
-            b2.X = 7;
-            b2.Y = 5;
+            McLaren.Test mt = new McLaren.Test();
+            Williams.Test wt = new Williams.Test();
+            BritishAmericanRacing.Test bt = new BritishAmericanRacing.Test();
+            BritishAmericanRacing.Jordan.Test jt = new BritishAmericanRacing.Jordan.Test();
 
-            Console.WriteLine(b1.getArea());
-            Console.WriteLine(b2.getArea());
+            mt.RevUp();
+            wt.RevUp();
+            bt.RevUp();
+            jt.RevUp();
 
-            Box b3 = b1 + b2;
-            Console.WriteLine(b3.X+"@@@"+b3.Y);
-            Console.WriteLine(b3.getArea());
-            Console.WriteLine(b1*b2);
-            Console.WriteLine(b1 - b2);
+            //Box b1 = new Box();
+            //b1.X = 5;
+            //b1.Y = 4;
+            //Box b2 = new Box();
+            //b2.X = 7;
+            //b2.Y = 5;
+
+            //Console.WriteLine(b1.getArea());
+            //Console.WriteLine(b2.getArea());
+
+            //Box b3 = b1 + b2;
+            //Console.WriteLine(b3.X+"@@@"+b3.Y);
+            //Console.WriteLine(b3.getArea());
+            //Console.WriteLine(b1*b2);
+            //Console.WriteLine(b1 - b2);
 
             //OperatorOverride oo = new OperatorOverride();
             //oo.Test("kimi");
