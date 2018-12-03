@@ -23,8 +23,10 @@ namespace HelloCSharpGit
 
         private static void Main3(String[] args)
         {
-            TestIO io = new TestIO();
-            io.Test();
+            Console.WriteLine("Kimi");
+
+            //TestIO io = new TestIO();
+            //io.Test();
 
             //try
             //{
