@@ -23,11 +23,34 @@ namespace HelloCSharpGit
 
         private static void Main2(String[] args)
         {
-            TestConcrete tc = new TestConcrete();
+            Box b1 = new Box();
+            b1.X = 5;
+            b1.Y = 4;
+            Box b2 = new Box();
+            b2.X = 7;
+            b2.Y = 5;
+
+            Console.WriteLine(b1.getArea());
+            Console.WriteLine(b2.getArea());
+
+            Box b3 = b1 + b2;
+            Console.WriteLine(b3.X+"@@@"+b3.Y);
+            Console.WriteLine(b3.getArea());
+            Console.WriteLine(b1*b2);
+            Console.WriteLine(b1 - b2);
+
+            //OperatorOverride oo = new OperatorOverride();
+            //oo.Test("kimi");
+            //Operator2 o2 = new Operator2();
+            //o2.Test(555);
+            //Op3 o3 = new Op3();
+            //o3.Test();
+
+            //TestConcrete tc = new TestConcrete();
             //tc.TestNonAbstract();
             //tc.TestAbstractMethod();
             //tc.TestAbstractMethod(557);
-            tc.TestVirtual();
+            //tc.TestVirtual();
             //TestAbstract ta = new TestAbstract();
 
             //Junior j = new Junior();
